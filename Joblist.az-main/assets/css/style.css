@@ -1,0 +1,1700 @@
+@font-face {
+    font-family: "TT Hoves";
+    src: url("../fonts/TT-Hoves-Pro-Trial/TT\ Hoves\ Pro\ Trial\ Regular.ttf");
+    src: url("../fonts/TT-Hoves-Pro-Trial/TT\ Hoves\ Pro\ Trial\ Regular.ttf") format("ttf"),
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth !important;
+
+    font-family: 'TT Hoves';
+}
+
+
+header {
+    background: #FFFFFF;
+    width: inherit;
+    /* height: 13vh; */
+}
+
+
+
+
+body::-webkit-scrollbar {
+    background: rgb(189, 181, 181);
+    width: 4px;
+    border-radius: 4px 4px 0 0;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 3.5px solid #0066FF;
+    transform: rotate(90deg);
+    width: 10px;
+}
+
+
+.scrrr::-webkit-scrollbar,
+.sirket-haqqinda::-webkit-scrollbar {
+    background: rgb(193, 189, 189);
+    width: 4px;
+    border-radius: 4px 4px 0 0;
+}
+
+.scrrr::-webkit-scrollbar-thumb,
+.sirket-haqqinda::-webkit-scrollbar-thumb {
+    border: 3.5px solid #0066FF;
+    transform: rotate(90deg);
+    width: 10px;
+}
+
+.scrrr,
+.sirket-haqqinda {
+    overflow-y: scroll !important;
+    height: 50vh !important;
+}
+
+
+
+body {
+    /* background: #dfdbdb; */
+    background: rgba(0, 0, 0, 0.06);
+}
+
+.header-head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
+    position: relative;
+}
+
+.header-mobile-menu {
+    display: none;
+    min-width: 100%;
+    height: 90vh;
+    position: fixed;
+    z-index: 99;
+    background: #FFFFFF;
+    top: 50px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    left: 0;
+    line-height: 40px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.23);
+}
+
+.we-write-mobile {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+
+
+
+.mobil-content-container {
+    border-top: 1px solid #D9D9D9;
+    display: flex;
+}
+
+.mobile-media-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.logo {
+    width: 150.78px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* .nav-list li,
+.mobile-menu li {
+    list-style: none;
+} */
+
+.nav-list li a,
+.mobile-menu li a {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #292D32;
+}
+
+.mobile-menu {
+    padding: 20px;
+    display: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 112px;
+    position: fixed;
+    left: 0px;
+    top: 0;
+}
+
+.mobile-menu-active {
+    display: block;
+
+}
+
+.whatsapp-img {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-menu-container .dropdown {
+    display: none;
+}
+
+.mobile-btn {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: #0066FF;
+    border-radius: 10px;
+
+}
+
+.mobile-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container-mobile {
+    display: flex;
+    /* margin: 10px;
+    padding-right: 22px; */
+}
+
+
+.we-write {
+    display: flex;
+    border-right: 1px solid #292D32;
+    margin: 10px;
+    padding-right: 22px;
+    gap: 5px;
+}
+
+.zeng {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    color: #818181;
+}
+
+.call-container {
+    display: flex;
+    margin: 10px;
+    padding-right: 22px;
+}
+
+.header-right-container {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.nav-list-mobile {
+    margin-bottom: 100px;
+    padding-top: 90px;
+
+}
+
+.mobile-test {
+    display: none;
+    padding-bottom: 20px;
+}
+
+
+.mobile-menu-bars {
+    display: none;
+}
+
+.header-right-two-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.arrr {
+    border-top: 1px solid #D9D9D9;
+}
+
+.call-content p,
+.we-write-content {
+    font-family: TT Hoves;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+}
+
+
+.call-content :nth-child(1) {
+    text-indent: 40px;
+}
+
+
+.we-write-content span {
+    margin-left: 28px;
+    gap: 10px;
+}
+
+.connaction-container {
+    display: flex;
+}
+
+footer {
+    background: #FFFFFF;
+    max-width: 1460px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.footer-main-container {
+    margin: 20px;
+
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.footer-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #818181;
+}
+
+
+
+.footer-media-containe-content p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #818181;
+}
+
+.conection-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-media-containe {
+    display: flex;
+    align-items: center;
+    gap: 23.57px;
+
+}
+
+.flexx {
+    display: flex;
+}
+
+.media-icons {
+    display: flex;
+    gap: 23.57px;
+    align-items: center;
+}
+
+.mobile-menu-button {
+    background: #0066FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+
+.search-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.vip-container,
+.sinple-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
+    gap: 20px;
+    max-width: 1460px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.vip-container .vip-card {
+    min-width: 313px;
+    max-height: 236px;
+    background: #FFFFFF;
+    border: 2px solid #0066FF;
+    border-radius: 10px;
+}
+
+
+
+.sinple-containe {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
+    gap: 20px;
+    max-width: 1460px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    height: 236px !important;
+}
+
+.sinple-card {
+    min-width: 313px;
+    height: 236px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.vip-card-content {
+    padding: 20px;
+}
+
+.search-btn {
+    /* background: red; */
+}
+
+.search-btn button {
+    background: #0066FF;
+    border-radius: 10px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+}
+
+.header-left-container {
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+}
+
+
+
+.vip-card-content-img-text p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+    display: flex;
+    align-items: center;
+    max-width: 1105px;
+}
+
+.vip-card-content-img-text {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.vip-card-content-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    border: 0.5px solid #0066FF;
+    display: block;
+    margin: 10px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+}
+
+.arrow-mobile {
+    border: 0.5px solid #D9D9D9;
+    display: block;
+    /* margin: 10px; */
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+
+}
+
+.arrow-no-vip {
+    border: 0.5px solid #D9D9D9;
+    display: block;
+    margin: 10px;
+}
+
+.vip-card-price-name h3 {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.vip-card-price-name {
+    margin: 10px;
+}
+
+.vip-card-price-name p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.vip-card-button-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vip-card-button-date button {
+    background: #0066FF;
+    border-radius: 10px;
+    font-family: 'TT Hoves';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+
+}
+
+.usRight-writing {
+    display: flex;
+}
+
+.imgFor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.no-vip {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #818181;
+}
+
+
+
+
+.call-svg {
+    border-right: 1px solid #292D32 !important;
+    padding-right: 10px;
+}
+
+.modal.active {
+    visibility: visible !important;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    left: 0;
+
+}
+
+.haqqinda-modal {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #292D32;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-main {}
+
+
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-inner-logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.elaqe-modal {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #292D32;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.elaqe-main {
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 1012px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.elaqe-content h3 {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 245px;
+    /* identical to box height, or 125% */
+
+
+    color: #292D32;
+}
+
+.elaqe-content p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+    max-width: 500px;
+}
+
+
+.modal-elaqe-map {
+    max-width: 892px;
+    height: 246px;
+    padding: 10px;
+}
+
+.modal-elaqe-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* /////////// */
+.dropbtn {
+    background: none;
+    padding: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    top: 50px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+    transition: all 4s;
+
+}
+
+
+
+.lang-con {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.test3 {
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+
+}
+
+/* /////////// */
+
+.catagorio-con {
+    border: 1px solid #292D32;
+    border-radius: 10px;
+}
+
+
+.vip-main-container {
+    visibility: visible;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #292D32;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* position: relative; */
+}
+
+.modal_container_vip {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    align-items: center;
+    visibility: hidden;
+
+}
+
+.modal_container_vip-active {
+    visibility: visible;
+
+}
+
+.modal_container_vip-deactive {
+    visibility: hidden;
+
+}
+
+
+.content-changer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.content-changer button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+
+.vip_modal {
+    max-width: 1166px;
+    display: flex;
+    height: 80vh;
+    margin: 0 auto;
+    /* overflow-y: scroll; */
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.modal_content_container {
+    padding: 20px;
+}
+
+.isintesviri-contaimner,
+.namied-container,
+.is-container {
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.is-container {
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 5px;
+}
+
+.namied-container p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+
+}
+
+.Namied-container ul {}
+
+
+/* identical to box height, or 143% */
+
+
+
+.vip_modal img {
+    height: 100%;
+}
+
+
+.vip-modal-images img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-content-container {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    width: 1213px;
+    height: 900px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.vip-main-container svg {
+    position: absolute;
+    right: 0;
+}
+
+.img-container {
+    max-width: 563px;
+    height: 748px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.slick-slider {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.item .vip_modal {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/* /////////////////////// */
+
+
+.dropdown-check-list {
+    display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+
+
+.dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top: 21%;
+}
+
+.dropdown-check-list ul.items {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+    list-style: none;
+}
+
+.dropdown-check-list.visible .anchor {
+    color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+    display: block;
+}
+
+.slider {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    background: none !important;
+}
+
+.img-con-whatsap {
+    max-width: 390px;
+}
+
+.img-con-whatsap img {
+    width: 100%;
+    height: 100%;
+}
+
+.isintesviri-contaimner ul li,
+.namied-container ul li,
+.is-container ul li,
+.muraciyetler-container ul li {
+    list-style: disc;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.isintesviri-contaimner ul,
+.namied-container ul,
+.is-container ul,
+.muraciyetler-container ul {
+    margin-left: 15px;
+
+}
+
+
+.isintesviri-contaimner p,
+.namied-container p,
+.is-container p,
+.muraciyetler-container p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.img-con-for-slider {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.vip-modal-buttons {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hr-coopy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #0066FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.teleb-olunan {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #0066FF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #FFFFFF;
+}
+
+
+.price-main-container {
+    padding: 30px;
+}
+
+.price-title p {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #292D32;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.price-grid-container {
+    margin-top: 30px;
+    max-width: 1312px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(377px, 1fr));
+    gap: 30px;
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 10px;
+
+}
+
+.price-grid-card {
+    min-width: 377px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding: 10px;
+
+}
+
+
+.price-grid-card-content ul p {
+
+    display: flex;
+    align-items: center;
+    gap: 11.33px;
+}
+
+.maxwidth {
+    max-width: 227px
+}
+
+.maxwidth1 {
+    max-width: 255px;
+}
+
+.maxwidth3 {
+    max-width: 288px;
+}
+
+.price-grid-card-content ul {
+    line-height: 30px;
+}
+
+.price-grid-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0066FF;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.price-grid-card-title:nth-child(1) {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.price-main-container {
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+.vakans-container ul li {
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.card-title-price {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.vakans-container h5 {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #292D32;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.odenis {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.odenis h5 {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.arr {
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #7B7C7D;
+
+
+}
+
+.nextArrow,
+.prevArrow {
+    background: #292D32;
+    width: 30px;
+    height: 30px;
+    border-radius: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+}
+
+.slick-arrow.slick-disabled {
+    opacity: 0.4;
+
+}
+
+.arrow-color {
+    display: flex;
+
+}
+
+.odenis p {
+    max-width: 973px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292D32;
+}
+
+.elaqe-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-mobile-menu a {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #292D32 !important;
+}
+
+.mobile-title {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    padding: 10px 100px;
+    border: 1px solid #292D32;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #292D32;
+
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    z-index: 99;
+    border: 1px solid #292D32;
+    border-radius: 10px;
+
+}
+
+.dropdown-container {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.drop-search-container {
+    padding: 10px 100px;
+    background: #0066FF;
+    border-radius: 10px;
+}
+
+.drop-search-container button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-item {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.whatsappp-for,
+.price-modal,
+.forbcg {
+    background: #FFFFFF;
+}
+
+.modal-parent {
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 1312px;
+    border-radius: 10px;
+    position: relative !important;
+}
+
+.modal-parent .close-modal {
+    position: absolute !important;
+    right: 20px;
+    z-index: 99;
+    /* background: red; */
+}
+
+.close-modal-for-search {
+    position: absolute !important;
+    right: -20px;
+    top: -35px;
+    z-index: 99;
+}
+
+.close-modal-forwhatsapp {
+    position: absolute !important;
+    right: -20px;
+    top: -30px;
+    z-index: 99;
+}
+
+.slider-svg-for {
+    position: absolute !important;
+    right: 20px !important;
+    top: -25px;
+    z-index: 99;
+}
+
+.close-modal-for-about {
+    position: absolute !important;
+    right: -20px;
+    top: -35px;
+    z-index: 99;
+}
+
+.close-modal-for-price {
+    position: absolute !important;
+    right: -20px;
+    top: -35px;
+    z-index: 99;
+}
+
+.close-modal-for-elaqe {
+    position: absolute !important;
+    right: 10px;
+    top: -30px;
+    z-index: 99;
+}
+
+
+
+select {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+
+.multiselect {
+    width: 457px !important;
+
+
+}
+
+.selectBox {
+    position: relative;
+    width: 100%;
+}
+
+.selectBox select {
+    width: 100% !important;
+    font-weight: bold;
+}
+
+.selectBox button {
+    width: 100%;
+    /* font-weight: bold; */
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+#checkboxes,
+#checkboxesOne,
+#checkboxesTwo,
+#checkboxesThere {
+    display: none;
+    border: 1px #dadada solid;
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 20vh;
+}
+
+#checkboxesFour {
+    display: none;
+    border: 1px #dadada solid;
+    text-align: end;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.checkboxesFour {
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.correct {
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    background: #0066FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+#checkboxesFour input {
+    max-width: 100px;
+    padding: 15px;
+    border: 1px solid #292D32;
+    border-radius: 5px;
+}
+
+#checkboxes label,
+#checkboxesOne label,
+#checkboxesTwo label,
+#checkboxesThere label,
+#checkboxesFour label {
+    /* display: block; */
+    /* padding: 20px; */
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+
+
+}
+
+#checkboxes label:hover,
+#checkboxesOne label:hover,
+#checkboxesTwo label:hover,
+#checkboxesThere label:hover {
+    background-color: #1e90ff;
+    color: #FFFFFF;
+
+}
+
+.larch {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+}
+
+#checkboxes::-webkit-scrollbar,
+#checkboxesOne::-webkit-scrollbar,
+#checkboxesTwo::-webkit-scrollbar,
+#checkboxesThere::-webkit-scrollbar,
+.price-main-container::-webkit-scrollbar {
+    background: rgb(193, 189, 189);
+    width: 4px;
+    border-radius: 4px 4px 0 0;
+}
+
+#checkboxes::-webkit-scrollbar-thumb,
+#checkboxesOne::-webkit-scrollbar-thumb,
+#checkboxesTwo::-webkit-scrollbar-thumb,
+#checkboxesThere::-webkit-scrollbar-thumb,
+.price-main-container::-webkit-scrollbar-thumb {
+    border: 3.5px solid #0066FF;
+    transform: rotate(90deg);
+    width: 10px;
+}
+
+.item .vip_moda::-webkit-scrollbar {
+    background: rgb(193, 189, 189) !important;
+    width: 4px !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+
+.item .vip_moda::-webkit-scrollbar-thumb {
+    border: 3.5px solid #0066FF !important;
+    transform: rotate(90deg) !important;
+    width: 10px !important;
+}
+
+
+.searchLarch {
+    padding: 10px 200px;
+    background: #0066FF;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nnn {
+    display: none;
+}
+
+.act {
+    display: block;
+
+}
+
+.sirket-haqqinda {
+    /* display: none; */
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+
+
+
+
+.scrrr::-webkit-scrollbar,
+.sirket-haqqinda::-webkit-scrollbar {
+    background: rgb(193, 189, 189);
+    width: 4px;
+    border-radius: 4px 4px 0 0;
+}
+
+.scrrr::-webkit-scrollbar-thumb,
+.sirket-haqqinda::-webkit-scrollbar-thumb {
+    border: 3.5px solid #0066FF;
+    transform: rotate(90deg);
+    width: 10px;
+}
+
+.scrrr,
+.sirket-haqqinda {
+    overflow-y: scroll !important;
+    height: 50vh !important;
+}
+
+
+
+.x_icon {
+    display: none;
+}
+
+
+.sirket-haqqinda {
+    display: none;
+    /* border: 1px solid #0066FF; */
+}
+
+
+.scrrr {
+    display: none;
+}
+
+.content-changer {
+    position: relative;
+}
+
+.none {
+    display: none;
+
+}
+
+.blcck {
+    display: block;
+
+
+}
+
+
+.brdrr {
+    border-bottom: 2px solid #0066FF !important;
+}
+
+.vip-card-content-svg {
+    text-align: center;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #292D32;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.pagination-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagination-main a {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #C0C0C0;
+
+}
+
+.pagination-prev,
+.pagination-next {
+    background: #D9D9D9;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
+.pagination-next {
+    background: #0066FF;
+}
+
+.actvPag {
+    color: #0066FF !important;
+}
+
+.sirket-haqqinda-paragraf {
+    margin-top: 10px;
+}
+
+.sirket-haqqinda-paragraf p{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 60px; */
+    padding: 10px;
+
+
+    color: #292D32;
+}
+.jjj {
+    margin-right: 20px;
+    overflow: scroll !important;
+}
+
+.unvan-sirket-haqqinda p,
+.number-connaction p{
+    line-height: 40px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #292D32;
+
+  
+}
+
+
+.last-pag {
+    color: #292D32 !important;
+}
+
+.pagination {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1460px;
+    border-bottom: 1px solid #D9D9D9;
+
+}

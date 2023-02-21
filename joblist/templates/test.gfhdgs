@@ -1,0 +1,16 @@
+<form onsubmit="sendForm(event)" class="form">
+
+    <input type="checkbox" name="city" value="bak" class="city-checkbox">
+    <input type="checkbox" name="category" value="bak" class="category-checkbox">
+    {% comment %} <input type="checkbox" name="city" value="agdam" class="city-checkbox">
+    <input type="checkbox" name="city" value="sumqayit" class="city-checkbox"> {% endcomment %}
+
+    <input type="submit" value="Gonder">
+
+</form>
+
+<script>
+
+      
+
+</script>
